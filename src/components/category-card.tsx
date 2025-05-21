@@ -11,22 +11,25 @@ interface CategoryCardProps {
 
 function CategoryCard({ img, title, desc, icon: Icon }: CategoryCardProps) {
   return (
-    <Card className="relative grid min-h-[12rem] w-full overflow-hidden">
+    // @ts-ignore
+    <Card className="group relative grid min-h-[24rem] w-full overflow-hidden rounded-sm">
       <Image
         width={768}
         height={768}
         src={img}
         alt={title}
-        className="absolute inset-0 h-full w-full object-cover object-center"
+        className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-110"
       />
-      <div className="absolute inset-0 h-full w-full bg-black/70" />
-      <CardBody className="relative flex flex-col justify-between">
-        <Icon className="h-8 w-8 text-white" />
+      <div className="absolute inset-0 h-full w-full bg-black/40" />
+      {/* @ts-ignore */}
+      <CardBody className="relative flex flex-col justify-end">
         <div>
-          <Typography variant="h5" className="mb-1" color="white">
+          {/* @ts-ignore */}
+          <Typography variant="h5" className="mb-1 text-xl font-extrabold " color="white">
             {title}
           </Typography>
-          <Typography color="white" className="text-xs font-bold opacity-50">
+          {/* @ts-ignore */}
+          <Typography color="white" className="text-md font-bold  text-gray-200 ">
             {desc}
           </Typography>
         </div>

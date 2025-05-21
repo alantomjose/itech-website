@@ -13,21 +13,22 @@ import {
   Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
+  Cog8ToothIcon,
+  CogIcon
 } from "@heroicons/react/24/solid";
 
 const NAV_MENU = [
   {
-    name: "Page",
-    icon: RectangleStackIcon,
+    name: "RETORTS",
+    href: "/",
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
+    name: "AUTOMATION",
+    href: "/",
   },
   {
-    name: "Docs",
-    icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    name: "BLOGS",
+    href: "/",
   },
 ];
 
@@ -39,13 +40,11 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
+      {/* @ts-ignore */}
       <Typography
         as="a"
-        href={href || "#"}
-        target={href ? "_blank" : "_self"}
-        variant="paragraph"
         color="gray"
-        className="flex items-center gap-2 font-medium text-gray-900"
+        className="flex items-center gap-2 font-medium text-gray-800"
       >
         {children}
       </Typography>
@@ -68,34 +67,28 @@ export function Navbar() {
   }, []);
 
   return (
-    <div className="px-10 sticky top-4 z-50">
+    <div className="px-10 z-50 fixed w-full ">
       <div className="mx-auto container">
+        {/* @ts-ignore */}
         <MTNavbar
           blurred
           color="white"
-          className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6"
+          className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6 "
         >
-          <div className="flex items-center justify-between">
-            <Typography color="blue-gray" className="text-lg font-bold">
-              Material Tailwind
+          <div className="flex items-center justify-between pr-6">
+            {/* @ts-ignore */}
+            <Typography color="blue-gray"  className="text-xl italic font-fugaz text-blu-1 tracking-wide">
+              ITECH EQUIPMENTS
             </Typography>
-            <ul className="ml-10 hidden items-center gap-8 lg:flex">
-              {NAV_MENU.map(({ name, icon: Icon, href }) => (
+            <ul className="ml-10 hidden items-center gap-8 lg:flex tracking-wider text-gray-1">
+              {NAV_MENU.map(({ name,  href }) => (
                 <NavItem key={name} href={href}>
-                  <Icon className="h-5 w-5" />
                   {name}
                 </NavItem>
               ))}
             </ul>
-            <div className="hidden items-center gap-4 lg:flex">
-              <Button variant="text">Log in</Button>
-              <a
-                href="https://www.material-tailwind.com/blocks"
-                target="_blank"
-              >
-                <Button color="gray">Blocks</Button>
-              </a>
-            </div>
+
+            {/* @ts-ignore */}
             <IconButton
               variant="text"
               color="gray"
@@ -112,22 +105,13 @@ export function Navbar() {
           <Collapse open={open}>
             <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
               <ul className="flex flex-col gap-4">
-                {NAV_MENU.map(({ name, icon: Icon, href }) => (
+                {NAV_MENU.map(({ name, href }) => (
                   <NavItem key={name} href={href}>
-                    <Icon className="h-5 w-5" />
                     {name}
                   </NavItem>
                 ))}
               </ul>
-              <div className="mt-6 mb-4 flex items-center gap-4">
-                <Button variant="text">Log in</Button>
-                <a
-                  href="https://www.material-tailwind.com/blocks"
-                  target="_blank"
-                >
-                  <Button color="gray">blocks</Button>
-                </a>
-              </div>
+              
             </div>
           </Collapse>
         </MTNavbar>

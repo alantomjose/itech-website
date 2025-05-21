@@ -30,7 +30,6 @@ export function FeedbackCard({ img, feedback, client, title }: FeedbackCardProps
         >
           &quot;{feedback}&quot;
         </Typography>
-        <Rating value={5} readonly />
       </CardBody>
     </Card>
   );
