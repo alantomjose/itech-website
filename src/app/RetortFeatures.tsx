@@ -25,12 +25,12 @@ function FeatureCard({title, description, image,link, buttonText, orinetLeft} : 
         {/* Left Content */}
         <div className="flex-1 space-y-6">
           <div className="space-y-2">
-            <Typography variant="h2" className="text-4xl font-bold" placeholder="">
+            <Typography variant="h2" className="text-4xl font-bold" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
               <span className="text-gray-1 border-b-4 border-blu-1">{title}</span>
             </Typography>
           </div>
           
-          <Typography variant="paragraph" className="text-gray-700 text-lg" placeholder="">
+          <Typography variant="paragraph" className="text-gray-700 text-lg" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
           {description}
 
           </Typography>
@@ -40,14 +40,18 @@ function FeatureCard({title, description, image,link, buttonText, orinetLeft} : 
             color="blue"
             className=" transition-all duration-300 flex items-center gap-2 bg-blu-1 hover:bg-blu-2 rounded-full"
             placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+            onResize={() => {}}
+            onResizeCapture={() => {}}
           >
             {buttonText}
           </Button>
         </div>
 
         <div className=" bg-red-50 w-full lg:max-w-[40%]">
-          <Card className="w-full overflow-hidden shadow-lg" placeholder="">
-            <CardBody className="relative w-full aspect-[16/9]" placeholder="">
+          <Card className="w-full overflow-hidden shadow-lg" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
+            <CardBody className="relative w-full aspect-[16/9]" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
               <Image
                 src={image}
                 alt="Surdry Continuous Sterilizer"
@@ -89,6 +93,7 @@ export function RetortFeatures() {
       image="https://itechsteri.com/wp-content/uploads/2020/08/Horizantal-WIR.jpg"
       link="/"
       buttonText="Ellab Thermocouple porbes"
+      orinetLeft={false}
       />
     </section>
   );

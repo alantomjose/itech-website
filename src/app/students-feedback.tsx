@@ -33,13 +33,10 @@ export function StudentsFeedback() {
     <section className="px-8 py-36">
       <div className="container mx-auto">
         <div className="mb-16 flex flex-col items-center w-full">
-          <Typography variant="h2" color="blue-gray" className="mb-2">
+          <Typography variant="h2" color="blue-gray" className="mb-2" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
             What Our Clients Say About Us
           </Typography>
-          <Typography
-            variant="lead"
-            className="mb-10 max-w-3xl lg:text-center !text-gray-500"
-          >
+          <Typography variant="lead" className="mb-10 max-w-3xl lg:text-center !text-gray-500" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
             We are a team of experienced professionals who are dedicated to providing the best possible service to our clients.
           </Typography>
         </div>

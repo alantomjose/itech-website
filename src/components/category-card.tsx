@@ -6,7 +6,7 @@ interface CategoryCardProps {
   img: string;
   title: string;
   desc: string;
-  icon: React.ElementType;
+  icon: React.ElementType | undefined;
 }
 
 function CategoryCard({ img, title, desc, icon: Icon }: CategoryCardProps) {

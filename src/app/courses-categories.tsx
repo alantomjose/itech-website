@@ -49,10 +49,27 @@ export function CoursesCategories() {
   return (
     <section className="container mx-auto px-8 py-36">
       <div className="mb-20 grid place-items-center text-center">
-        <Typography variant="h2" color="blue-gray" className="my-3">
+        <Typography
+          variant="h2"
+          color="blue-gray"
+          className="my-3"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+          onResize={() => {}}
+          onResizeCapture={() => {}}
+        >
           Courses Categories
         </Typography>
-        <Typography variant="lead" className="!text-gray-500 lg:w-6/12">
+        <Typography
+          variant="lead"
+          className="!text-gray-500 lg:w-6/12"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+          onResize={() => {}}
+          onResizeCapture={() => {}}
+        >
           A comprehensive selection of courses designed to empower you with the
           skills you need to thrive in the dynamic world of web development.
         </Typography>
@@ -61,22 +78,64 @@ export function CoursesCategories() {
         <Card
           color="gray"
           className="relative grid h-full w-full place-items-center overflow-hidden text-center"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+          onResize={() => {}}
+          onResizeCapture={() => {}}
         >
           <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
-          <CardBody className="relative w-full">
-            <Typography color="white" className="text-xs font-bold opacity-50">
+          <CardBody
+            className="relative w-full"
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+            onResize={() => {}}
+            onResizeCapture={() => {}}
+          >
+            <Typography
+              color="white"
+              className="text-xs font-bold opacity-50"
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
+            >
               HTML, CSS & Javascript
             </Typography>
-            <Typography variant="h4" className="mt-9" color="white">
+            <Typography
+              variant="h4"
+              className="mt-9"
+              color="white"
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
+            >
               Web Development Intro
             </Typography>
             <Typography
               color="white"
               className="mt-4 mb-14 font-normal opacity-50"
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
             >
               Ready to start your web development journey?
             </Typography>
-            <Button size="sm" color="white">
+            <Button
+              size="sm"
+              color="white"
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
+            >
               Enroll Now
             </Button>
           </CardBody>

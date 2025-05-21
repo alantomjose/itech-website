@@ -23,14 +23,30 @@ function Hero() {
             variant="h1"
             color="blue-gray"
             className="text-center text-4xl md:text-4xl lg:text-5xl text-white font-bold"
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+            onResize={() => {}}
+            onResizeCapture={() => {}}
           >
             Your Partner in Safe and Reliable Food Processing
           </Typography>
-          <Typography variant="lead" className="mt-6 text-center text-blue-200 text-xl">
-          We build robust, high-performance retort sterilizers trusted by the food industry for consistent thermal processing and uncompromising reliability.
+          <Typography variant="lead" className="mt-6 text-center text-blue-200 text-xl" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
+            We build robust, high-performance retort sterilizers trusted by the food industry for consistent thermal processing and uncompromising reliability.
           </Typography>
           <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 ">
-            <Button color="black"  className="rounded-full bg-blue-400" size="lg">Contact Us</Button>
+            <Button
+              color="blue"
+              className="rounded-full bg-blue-400"
+              size="lg"
+              placeholder=""
+              onPointerEnterCapture={() => {}}
+              onPointerLeaveCapture={() => {}}
+              onResize={() => {}}
+              onResizeCapture={() => {}}
+            >
+              Contact Us
+            </Button>
             
           </div>
         </div>

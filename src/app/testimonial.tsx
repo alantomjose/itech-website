@@ -8,8 +8,8 @@ function TESTIMONIAL() {
   return (
     <section className="px-8 py-40">
       <div className="container mx-auto">
-        <Card color="transparent" shadow={false} className="">
-          <CardBody className="col-span-full gap-10 place-items-center overflow-visible grid grid-cols-1 lg:grid-cols-4">
+        <Card color="transparent" shadow={false} className="" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
+          <CardBody className="col-span-full gap-10 place-items-center overflow-visible grid grid-cols-1 lg:grid-cols-4" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
             <div className="w-full xl:w-[600px] flex items-center overflow-hidden rounded-xl justify-center col-span-2 h-full">
               <Image
                 width={768}
@@ -20,30 +20,35 @@ function TESTIMONIAL() {
               />
             </div>
             <div className="col-span-2 w-full">
-              <Typography variant="h6" color="blue" className="mb-4">
+              <Typography variant="h6" color="blue" className="mb-4" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
                 ONLINE COURSE
               </Typography>
               <Typography
                 variant="h3"
                 color="blue-gray"
                 className="mb-4 font-bold"
+                placeholder=""
+                onPointerEnterCapture={() => {}}
+                onPointerLeaveCapture={() => {}}
+                onResize={() => {}}
+                onResizeCapture={() => {}}
               >
                 Full-Stack Web Development
               </Typography>
-              <Typography className="mb-1 w-full font-normal !text-gray-500">
+              <Typography className="mb-1 w-full font-normal !text-gray-500" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
                 Become a versatile developer by combining frontend and backend
                 skills. Build complete web applications from start to finish.
               </Typography>
               <div className="grid mb-4">
                 <div className="flex items-center gap-2">
                   <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                  <Typography className="w-full font-normal !text-gray-500">
+                  <Typography className="w-full font-normal !text-gray-500" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
                     International course collection in 10 languages
                   </Typography>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="h-1 w-1 bg-gray-500 rounded-full" />
-                  <Typography className="w-full font-normal !text-gray-500">
+                  <Typography className="w-full font-normal !text-gray-500" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
                     Certified include
                   </Typography>
                 </div>
@@ -54,14 +59,24 @@ function TESTIMONIAL() {
                   src="/image/avatar3.jpg"
                   alt="spotify"
                   size="md"
+                  placeholder=""
+                  onPointerEnterCapture={() => {}}
+                  onPointerLeaveCapture={() => {}}
+                  onResize={() => {}}
+                  onResizeCapture={() => {}}
                 />
                 <div>
-                  <Typography variant="h6" color="blue-gray" className="mb-0.5">
+                  <Typography variant="h6" color="blue-gray" className="mb-0.5" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
                     Otto Gonzalez
                   </Typography>
                   <Typography
                     variant="small"
                     className="font-normal !text-gray-500"
+                    placeholder=""
+                    onPointerEnterCapture={() => {}}
+                    onPointerLeaveCapture={() => {}}
+                    onResize={() => {}}
+                    onResizeCapture={() => {}}
                   >
                     Senior Designer @company.com
                   </Typography>
