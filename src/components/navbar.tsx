@@ -16,8 +16,10 @@ import {
   Cog8ToothIcon,
   CogIcon
 } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 const NAV_MENU = [
+
   {
     name: "RETORTS",
     href: "/",
@@ -44,7 +46,7 @@ function NavItem({ children, href }: NavItemProps) {
       <Typography
         as="a"
         color="gray"
-        className="flex items-center gap-2 font-medium text-gray-800"
+        className="flex items-center gap-2 font-medium text-gray-200"
       >
         {children}
       </Typography>
@@ -67,19 +69,20 @@ export function Navbar() {
   }, []);
 
   return (
-    <div className="px-10 z-50 fixed w-full ">
+    <div className="z-50 fixed w-full  ">
       <div className="mx-auto container">
         {/* @ts-ignore */}
         <MTNavbar
           blurred
           color="white"
-          className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6 "
+          className="z-50 mt-6 relative border-0 pr-3  pl-6 bg-black "
         >
           <div className="flex items-center justify-between pr-6">
+            <Link href="/">
             {/* @ts-ignore */}
-            <Typography color="blue-gray"  className="text-xl italic font-fugaz text-blu-1 tracking-wide">
+            <Typography color="white"  className="text-xl italic font-fugaz text-white tracking-wide">
               ITECH EQUIPMENTS
-            </Typography>
+            </Typography></Link>
             <ul className="ml-10 hidden items-center gap-8 lg:flex tracking-wider text-gray-1">
               {NAV_MENU.map(({ name,  href }) => (
                 <NavItem key={name} href={href}>
@@ -96,15 +99,16 @@ export function Navbar() {
               className="ml-auto inline-block lg:hidden"
             >
               {open ? (
-                <XMarkIcon strokeWidth={2} className="h-6 w-6" />
+                <XMarkIcon strokeWidth={2} className="h-6 w-6 text-white" />
               ) : (
-                <Bars3Icon strokeWidth={2} className="h-6 w-6" />
+                <Bars3Icon strokeWidth={2} className="h-6 w-6 text-white" />
               )}
             </IconButton>
           </div>
           <Collapse open={open}>
             <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
-              <ul className="flex flex-col gap-4">
+              <ul className="flex flex-col gap-4 t">
+                <NavItem href="/">Home</NavItem>
                 {NAV_MENU.map(({ name, href }) => (
                   <NavItem key={name} href={href}>
                     {name}

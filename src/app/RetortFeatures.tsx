@@ -9,14 +9,8 @@ import {
 } from "@material-tailwind/react";
 import Image from "next/image";
 
-import {
-  GlobeEuropeAfricaIcon,
-  MicrophoneIcon,
-  PuzzlePieceIcon,
-  HeartIcon,
-} from "@heroicons/react/24/solid";
 
-import CategoryCard from "@/components/category-card";
+
 
 function FeatureCard({title, description, image,link, buttonText, orinetLeft} : {title: string, description: string, image: string, link: string, buttonText: string, orinetLeft: boolean}) {
   console.log(orinetLeft);
@@ -49,20 +43,17 @@ function FeatureCard({title, description, image,link, buttonText, orinetLeft} : 
           </Button>
         </div>
 
-        <div className=" bg-red-50 w-full lg:max-w-[40%]">
-          <Card className="w-full overflow-hidden shadow-lg" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
-            <CardBody className="relative w-full aspect-[16/9]" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
-              <Image
-                src={image}
-                alt="Surdry Continuous Sterilizer"
-                fill
-                className="object-cover object-center"
-                priority
-                sizes=""
-              />
-              <div className="absolute inset-0 bg-black/10 transition-opacity duration-300 group-hover:opacity-0" />
-            </CardBody>
-          </Card>
+        <div className="w-full lg:max-w-[40%] flex justify-center items-center">
+          <div className="overflow-hidden shadow-lg relative">
+            <Image
+              src={image}
+              alt="Surdry Continuous Sterilizer"
+              className="object-cover object-center"
+              width={500}
+              height={500}
+            />
+            <div className="absolute inset-0 bg-black/10 transition-opacity duration-300 group-hover:opacity-0" />
+          </div>
         </div>
       </div>
   );
@@ -74,7 +65,7 @@ export function RetortFeatures() {
       title="Smart, Fully Automated and Cloud Connected Retort Systems" 
       description="Experience unmatched efficiency with our fully automated retorts, designed for precision control, minimal human intervention, and consistent processing every cycle.
       Monitor and control your retort operations from anywhere, anytime with our cloud-based platform."
-      image="https://itechsteri.com/wp-content/uploads/2020/08/Horizantal-WIR.jpg"
+      image="https://itech-website-2.s3.ap-south-1.amazonaws.com/website/website_images/retort_images.jpg"
       link="/"
       buttonText="More on the our Automation System"
       orinetLeft={false}

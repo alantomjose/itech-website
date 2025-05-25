@@ -11,7 +11,6 @@ import ContactUs from "./ContactUs";
 export default function Campaign() {
   return (
     <>
-      <Navbar />
       <Hero />
       <RetortTypes />
       <RetortFeatures />

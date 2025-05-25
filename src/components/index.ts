@@ -1,4 +1,5 @@
 "use client";
+import "@xyflow/react/dist/style.css";
 
 export * from "./navbar";
 export * from "./footer";

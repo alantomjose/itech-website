@@ -12,19 +12,19 @@ import { Button } from "@material-tailwind/react";
 const FEATURES = [
   {
     icon: ChartBarIcon,
-    title: "Retort Systems",
+    title: "FDA Compliant Retort Systems",
   },
   {
     icon: WrenchScrewdriverIcon,
-    title: "Parts & service",
+    title: "AMC and Exceptional On Site Service",
   },
   {
     icon: SparklesIcon,
-    title: "Cloud Based Systems",
+    title: "Cloud Based Monitoring Systems",
   },
   {
     icon: CubeIcon,
-    title: "Handling automation",
+    title: "Automation Solutions",
   },
 ];
 

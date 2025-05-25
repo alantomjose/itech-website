@@ -16,6 +16,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 import CategoryCard from "@/components/category-card";
+import Link from "next/link";
 
 
 const CATEGORIES = [
@@ -24,24 +25,28 @@ const CATEGORIES = [
     desc: "Heats with high pressure water and steam",
     title: "Water Spray Retort",
     icon: undefined,
+    link: "/retorts/steamWaterSpray",
   },
   {
     img: "https://surdry.com/wp-content/uploads/2023/06/production-retorts-rotary.jpg",
     desc: "Hot water flows from top to bottom for uniform heating",
     title: "Water Cascading Retort",
     icon: undefined,
+    link: "/retorts/waterCascading",
   },
   {
     img: "https://surdry.com/wp-content/uploads/2023/06/production-retorts-static.jpg",
     desc: "Fully submerges products in hot water",
     title: "Water Immersion Retort",
     icon: undefined,
-  },
+    link: "/retorts/waterImmersion",
+    },
   {
     img: "https://surdry.com/wp-content/uploads/2023/06/production-retorts-rotary.jpg",
     desc: "Small-scale unit, perfect for testing and trials",
     title: "Pilot Retort",
     icon: undefined,
+    link: "/retorts/pilot",
   },
 ];
 
@@ -58,7 +63,9 @@ export function RetortTypes() {
       </div>
       <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
         {CATEGORIES.map((props, key) => (
-          <CategoryCard key={key} {...props} />
+          <Link href={props.link}>
+            <CategoryCard key={key} {...props} />
+          </Link>
         ))}
       </div>
     </section>
