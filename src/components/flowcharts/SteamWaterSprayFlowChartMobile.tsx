@@ -1,5 +1,5 @@
 import { ReactFlow, Background, Controls } from "@xyflow/react";
-
+import { Node, Edge } from "@xyflow/react";
 
 const nodeStyle = {
   width: 160,
@@ -93,8 +93,8 @@ const SteamWaterSprayFlowChart = () => (
     </h2>
     <div style={flowStyles}>
       <ReactFlow
-        nodes={nodes}
-        edges={edges}
+        nodes={nodes as Node[]}
+        edges={edges as Edge[]}
         fitView
         panOnDrag={false}
         zoomOnScroll={false}
@@ -110,9 +110,9 @@ const SteamWaterSprayFlowChart = () => (
         selectionKeyCode={null}
         multiSelectionKeyCode={null}
         draggable={false}
-        selectable={false}
+        // unselectable={true}
       >
-        <Controls showInteractive={false} showZoom={false} showFitView={false} showPan={false} />
+        <Controls showInteractive={false} showZoom={false} showFitView={false} />
         <Background gap={16} size={1}  />
       </ReactFlow>
     </div>
