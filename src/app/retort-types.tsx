@@ -63,8 +63,8 @@ export function RetortTypes() {
       </div>
       <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
         {CATEGORIES.map((props, key) => (
-          <Link href={props.link}>
-            <CategoryCard key={key} {...props} />
+          <Link href={props.link} key={key}>
+            <CategoryCard {...props} />
           </Link>
         ))}
       </div>

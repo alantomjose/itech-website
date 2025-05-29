@@ -31,10 +31,26 @@ export function Blogs() {
   return (
     <section className="px-8 py-16">
       <div className="container mx-auto mb-24 text-center">
-        <Typography variant="h2" color="blue-gray">
+        <Typography
+          variant="h2"
+          color="blue-gray"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+          onResize={() => {}}
+          onResizeCapture={() => {}}
+        >
           Learn More About Retort Technology
         </Typography>
-        <Typography variant="lead" className="mt-2 mx-auto w-full px-4 !text-gray-500 lg:w-6/12 lg:px-8">
+        <Typography
+          variant="lead"
+          className="mt-2 mx-auto w-full px-4 !text-gray-500 lg:w-6/12 lg:px-8"
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
+          onResize={() => {}}
+          onResizeCapture={() => {}}
+        >
           As a retort processor, poper understanding of the technology is of utmost importance.
         </Typography>
       </div>

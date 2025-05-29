@@ -3,7 +3,7 @@ import Image from "next/image";
 
 interface CourseCardProps {
   img: string;
-  tag: string;
+  tag?: string;
   title: string;
   desc: string;
   label: string;
