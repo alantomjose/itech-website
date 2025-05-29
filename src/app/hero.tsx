@@ -5,6 +5,7 @@ import { Button, Typography } from "@material-tailwind/react";
 import { heroImageLinks } from "../../utilites/links/hero_image_links";
 
 function Hero() {
+  
   return (
     <section className="relative w-full h-screen min-h-[80vh] bg-[#111] flex flex-col justify-start lg:justify-center items-center overflow-hidden py-10 " >
       <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col lg:flex-row   mt-24 lg:mt-0 lg:items-stretch ">
