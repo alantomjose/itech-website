@@ -34,7 +34,7 @@ function Hero() {
           </Typography>
           <Button
             color="gray"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full px-8 py-3 shadow-lg transition-all duration-200  text-md lg:text-lg"
+            className="bg-blu-1 hover:bg-blue-700 text-white font-semibold rounded-full px-8 py-3 shadow-lg transition-all duration-200  text-md lg:text-lg"
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}

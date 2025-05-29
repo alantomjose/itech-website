@@ -46,7 +46,7 @@ const CATEGORIES = [
     desc: "Small-scale unit, perfect for testing and trials",
     title: "Pilot Retort",
     icon: undefined,
-    link: "/retorts/pilot",
+    link: "/retorts/pilotRetort",
   },
 ];
 

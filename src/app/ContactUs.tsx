@@ -6,7 +6,7 @@ import { Input, Textarea } from "@material-tailwind/react";
 
 export default function ContactUs() {
   return (
-    <div id="contact-us" className="contact-container w-full max-w-5xl mx-auto rounded-md overflow-hidden shadow-2xl flex flex-col-reverse md:flex-row bg-white border border-gray-200 md:p-0 p-2">
+    <div id="contact-us" className="contact-container w-full max-w-5xl mx-auto rounded-md overflow-hidden shadow-2xl flex flex-col md:flex-row bg-white border border-gray-200 md:p-0 p-2">
       {/* Left: Contact Info */}
       <div className="contact-info flex-1 bg-blu-1 text-white p-6 md:p-10 flex flex-col justify-center">
         <h2 className="text-3xl font-bold mb-2">Let&apos;s get in touch</h2>

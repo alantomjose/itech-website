@@ -8,6 +8,7 @@ import { RetortTypes } from "./retort-types";
 import { RetortFeatures } from "./RetortFeatures";
 import { FeatureCards } from "./FeatureCards";
 import ContactUs from "./ContactUs";
+import { Blogs } from "@/components/blogs";
 export default function Campaign() {
   return (
     <>
@@ -16,10 +17,11 @@ export default function Campaign() {
       <RetortFeatures />
       {/* <OutImpressiveStats /> */}
       <FeatureCards />
+      <Blogs />
       {/* <ExploreCourses /> */}
       {/* <Testimonial /> */}
       {/* <Events /> */}
-      <StudentsFeedback />
+      {/* <StudentsFeedback /> */}
       {/* <TrustedCompany /> */}
       <ContactUs />
       <Footer />

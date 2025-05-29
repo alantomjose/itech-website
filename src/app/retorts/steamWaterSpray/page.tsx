@@ -1,6 +1,6 @@
 import SideBarLayout from "@/components/layout/SideBarLayout";
-import SteamWaterSprayFlowChart from "@/components/SteamWaterSprayFlowChart";
-
+import SteamWaterSprayFlowChart from "@/components/flowcharts/SteamWaterSprayFlowChart";
+import SteamWaterSprayFlowChartMobile from "@/components/flowcharts/SteamWaterSprayFlowChartMobile";
 export default function SteamWaterSpray() {
   return (
     <SideBarLayout>
@@ -12,7 +12,12 @@ export default function SteamWaterSpray() {
           sides, the process ensures uniform heat distribution, faster come-up times, and consistent product
           safety—batch after batch.
         </p>
-        <SteamWaterSprayFlowChart />
+        <div className="hidden md:block">
+          <SteamWaterSprayFlowChart />
+        </div>
+        <div className="block md:hidden">
+          <SteamWaterSprayFlowChartMobile />
+        </div>
 
         <div className="mt-16">
           <h2 className="text-2xl font-bold mb-6 text-blu-1">Best Suited For</h2>

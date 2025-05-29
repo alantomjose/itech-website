@@ -50,7 +50,7 @@ export function FeatureCards() {
           {FEATURES.map(({ icon: Icon, title }, idx) => (
             <div
               key={title}
-              className="flex flex-col items-center justify-center bg-blu-1 rounded-xl shadow-lg py-12 px-6 transition-transform hover:scale-105 cursor-pointer min-h-[240px]"
+              className="flex flex-col items-center justify-center bg-blu-1 rounded-xl shadow-lg py-12 px-6 transition-transform hover:scale-105 duration-500 cursor-pointer min-h-[240px]"
             >
               <Icon className="h-16 w-16 text-white mb-6" />
               <span className="text-2xl font-semibold text-white text-center">
