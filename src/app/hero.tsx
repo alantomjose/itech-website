@@ -12,7 +12,7 @@ function Hero() {
         <div className="flex-1 flex flex-col justify-center items-start w-full pl-4 lg:pl-0 lg:w-1/2 py-2 lg:pt-0">
           <Typography
             variant="h1"
-            className="text-white font-bold text-3xl lg:text-5xl lg:text-5xl leading-tight mb-6 drop-shadow-lg text-left"
+            className="text-white font-bold text-3xl lg:text-5xl leading-tight mb-6 drop-shadow-lg text-left"
             placeholder=""
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
