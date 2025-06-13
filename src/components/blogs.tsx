@@ -29,7 +29,7 @@ const BLOGS = [
 
 export function Blogs() {
   return (
-    <section className="px-8 py-16">
+    <section className="px-8 py-16" id='blogs'>
       <div className="container mx-auto mb-24 text-center">
         <Typography
           variant="h2"

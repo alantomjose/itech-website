@@ -4,14 +4,14 @@ export default function PilotRetort() {
   return (
     <SideBarLayout>
       <section className="max-w-3xl mx-auto py-16 px-4 pt-36 text-blue-gray-700">
-        <h1 className="text-4xl font-bold mb-2 text-blu-1">Itech Prime Pilot Retort</h1>
+        <h1 className="text-4xl font-bold mb-2 text-blu-1">Forsquare Pilot Retort</h1>
         <p className="mb-6 text-lg">
           <span className="font-semibold">The Smart Way to Develop and Launch Your Retort Products</span>
         </p>
         <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 text-blu-1">Why Choose the Itech Prime Pilot Retort?</h2>
+          <h2 className="text-2xl font-bold mb-4 text-blu-1">Why Choose the Forsquare Pilot Retort?</h2>
           <p className="mb-4 text-lg">
-            Innovation meets efficiency — the Itech Prime Pilot Retort is your ideal partner for product development, testing, and R&amp;D in the world of retort-processed foods.
+            Innovation meets efficiency — the Forsquare Pilot Retort is your ideal partner for product development, testing, and R&amp;D in the world of retort-processed foods.
           </p>
           <p className="mb-4 text-lg">
             Whether you&#39;re a startup entering the retort space or an established processor launching new SKUs, this compact system offers the precision, affordability, and flexibility you need to succeed.
@@ -64,7 +64,7 @@ export default function PilotRetort() {
           <h2 className="text-2xl font-bold mb-6 text-blu-1">Make Smarter Retort Decisions</h2>
           <p className="text-lg">
             Stop wasting resources on full-scale test runs.<br />
-            Switch to the Itech Prime Pilot Retort — the smartest way to innovate, validate, and bring your retort products to market faster and smarter.
+            Switch to the Forsquare Pilot Retort — the smartest way to innovate, validate, and bring your retort products to market faster and smarter.
           </p>
         </div>
       </section>

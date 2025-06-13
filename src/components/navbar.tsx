@@ -22,15 +22,15 @@ const NAV_MENU = [
 
   {
     name: "RETORTS",
-    href: "/",
+    href: "/#retort-types",
   },
   {
     name: "AUTOMATION",
-    href: "/",
+    href: "/#automation",
   },
   {
     name: "BLOGS",
-    href: "/",
+    href: "/#blogs",
   },
 ];
 
@@ -43,13 +43,12 @@ function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
       {/* @ts-ignore */}
-      <Typography
-        as="a"
-        color="gray"
-        className="flex items-center gap-2 font-medium text-gray-200"
+      <Link
+        className="flex items-center gap-2 text-gray-200"
+        href={href || "/"}
       >
         {children}
-      </Typography>
+      </Link>
     </li>
   );
 }
@@ -80,9 +79,9 @@ export function Navbar() {
           <div className="flex items-center justify-between pr-6">
             <Link href="/">
             {/* @ts-ignore */}
-            <Typography color="white"  className="text-xl italic font-fugaz text-white tracking-wide">
-              ITECH EQUIPMENTS
-            </Typography></Link>
+            <div  className="  text-xl font-black tracking-wide text-white ">
+              FORSQAURE RETORTS
+            </div></Link>
             <ul className="ml-10 hidden items-center gap-8 lg:flex tracking-wider text-gray-1">
               {NAV_MENU.map(({ name,  href }) => (
                 <NavItem key={name} href={href}>

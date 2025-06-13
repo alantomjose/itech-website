@@ -3,16 +3,9 @@ import { Typography, Button, Input } from "@material-tailwind/react";
 const LINKS = [
   {
     title: "Company",
-    items: ["About Us", "Careers", "Premium Tools", "Blog"],
+    items: ["About Us", "Careers", "Blog"],
   },
-  {
-    title: "Pages",
-    items: ["Login", "Register", "Add List", "Contact"],
-  },
-  {
-    title: "Legal",
-    items: ["Terms", "Privacy", "Team", "About Us"],
-  },
+
 ];
 
 const CURRENT_YEAR = new Date().getFullYear();
@@ -49,33 +42,12 @@ export function Footer() {
           </div>
           <div className="">
             <Typography variant="h6" className="mb-3 text-left" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
-              Subscribe
+              FORSQUARE CORPORATION PVT LTD.
             </Typography>
             <Typography className="!text-gray-500 font-normal mb-4 text-base" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
-              Get access to subscriber exclusive deals and be the first who gets
-              informed about fresh sales.
+              Forsquare Retorts is a leading manufacturer of retort sterilizers and other food processing equipment.
             </Typography>
-            <Typography variant="small" className="font-medium mb-2 text-left" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
-              Your Email
-            </Typography>
-            <div className="flex mb-3 flex-col lg:flex-row items-start gap-4">
-              <div className="w-full">
-                {/* @ts-ignore */}
-                <Input label="Email" color="gray" />
-                <Typography className="font-medium mt-3 !text-sm !text-gray-500 text-left" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}  >
-                  I agree the{" "}
-                  <a
-                    href="#"
-                    className="font-bold underline hover:text-gray-900 transition-colors"
-                  >
-                    Terms and Conditions{" "}
-                  </a>
-                </Typography>
-              </div>
-              <Button color="gray" className="w-full lg:w-fit" size="md" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}} onResize={() => {}} onResizeCapture={() => {}}>
-                button
-              </Button>
-            </div>
+            
           </div>
         </div>
         <Typography
@@ -87,15 +59,7 @@ export function Footer() {
           onResize={() => {}}
           onResizeCapture={() => {}}
         >
-          &copy; {CURRENT_YEAR} Made with{" "}
-          <a href="https://www.material-tailwind.com" target="_blank">
-            Material Tailwind
-          </a>{" "}
-          by{" "}
-          <a href="https://www.creative-tim.com" target="_blank">
-            Creative Tim
-          </a>
-          .
+          &copy; {CURRENT_YEAR} Forsquare Retorts. All rights reserved.
         </Typography>
       </div>
     </footer>

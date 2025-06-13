@@ -15,7 +15,7 @@ export default function AutomatedRetorts() {
             In retort food processing, precision and control are everything. Achieving the right sterilization value (Fo/Po) without overprocessing requires not just heat—it requires intelligent, responsive systems backed by accurate data and smart automation.
           </p>
           <p className="mb-4 text-lg">
-            Itech&apos;s smart retort systems integrate advanced thermal processing control with seamless cloud connectivity, enabling processors to deliver safe, shelf-stable products across a wide range of packaging formats—while improving quality, consistency, and efficiency.
+            Our&apos;s smart retort systems integrate advanced thermal processing control with seamless cloud connectivity, enabling processors to deliver safe, shelf-stable products across a wide range of packaging formats—while improving quality, consistency, and efficiency.
           </p>
         </div>
         <div className="mb-8">
@@ -42,7 +42,7 @@ export default function AutomatedRetorts() {
             Ensuring that every product reaches the required sterilization level at its cold spot is critical for food safety and product integrity.
           </p>
           <p className="mb-4 text-lg">
-            Itech systems are integrated with Ellab&apos;s industry-leading thermocouple and ETI sensors, enabling:
+            Our systems are integrated with Ellab&apos;s industry-leading thermocouple and ETI sensors, enabling:
           </p>
           <ul className="list-disc pl-8 space-y-2 text-lg mb-4">
             <li>Accurate cold-spot temperature measurement inside hermetically sealed containers</li>
@@ -72,7 +72,7 @@ export default function AutomatedRetorts() {
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-4 text-blu-1">Supports a Wide Range of Packaging Formats</h2>
           <p className="mb-4 text-lg">
-            Designed with versatility in mind, Itech retorts are compatible with:
+            Designed with versatility in mind, Our retorts are compatible with:
           </p>
           <ul className="list-disc pl-8 space-y-2 text-lg mb-4">
             <li>Flexible pouches</li>
@@ -85,7 +85,7 @@ export default function AutomatedRetorts() {
           </p>
         </div>
         <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4 text-blu-1">Why Choose Itech&apos;s Smart Retort Systems?</h2>
+          <h2 className="text-2xl font-bold mb-4 text-blu-1">Why Choose Our&apos;s Smart Retort Systems?</h2>
           <ul className="list-disc pl-8 space-y-2 text-lg mb-4">
             <li>Smart automation ensures reproducibility and reduces operator dependency</li>
             <li>Real-time heat penetration monitoring provides confidence in product safety</li>
@@ -95,7 +95,7 @@ export default function AutomatedRetorts() {
           </ul>
           <p className="mb-4 text-lg">
             Elevate your retort operations with intelligent control, accurate monitoring, and scalable efficiency.<br />
-            Discover how Itech&apos;s smart retort systems can future-proof your food processing.
+            Discover how Our&apos;s smart retort systems can future-proof your food processing.
           </p>
         </div>
       </section>

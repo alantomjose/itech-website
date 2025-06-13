@@ -15,21 +15,22 @@ export default function ContactUs() {
           <div className="flex items-start gap-4">
             <PhoneIcon className="h-6 w-6 text-white flex-shrink-0" />
             <div>
-              <div>+91 1234123412</div>
-              <div>+91 1234123412</div>
+              <div>Kamaraj G.: +91 7760116600 </div>
+              <div>K. Rajan: +91 9200158555</div>
             </div>
           </div>
           <div className="flex items-start gap-4">
             <EnvelopeIcon className="h-6 w-6 text-white flex-shrink-0" />
             <div>
-              <div>info@itech.com</div>
-              <div>sales@itech.com</div>
+              <div>itech.kamaraj@gmail.com</div>
+              <div>itech.krajan@gmail.com</div>
             </div>
           </div>
           <div className="flex items-start gap-4">
             <MapPinIcon className="h-6 w-6 text-white flex-shrink-0" />
             <div>
-              600 Congress Ave,<br />Floor 14<br />Austin, TX 78701
+              FORSQAURE Corporation,
+              Bangalore, Karnataka, India.
             </div>
           </div>
         </div>

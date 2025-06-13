@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "ITECH Equipments",
+  title: "Forsquare Retorts",
   description:
-    "ITECH EQUIPMENTS is a leading manufacturer of retort sterilizers and other food processing equipment.",
+    "Forsquare Retorts is a leading manufacturer of retort sterilizers and other food processing equipment.",
 };
 
 export default function RootLayout({

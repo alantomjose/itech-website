@@ -16,7 +16,7 @@ export default function PreciseHeatPenetration() {
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-4 text-blu-1">Engineered for Precision</h2>
           <p className="mb-4 text-lg">
-            The Itech retort systems are equipped with the world&apos;s most accurate temperature monitoring and control system, designed specifically for heat penetration studies and cold spot analysis in sealed containers.
+            Our retort systems are equipped with the world&apos;s most accurate temperature monitoring and control system, designed specifically for heat penetration studies and cold spot analysis in sealed containers.
           </p>
           <p className="mb-4 text-lg">
             We proudly integrate Ellab Thermocouples for precise heat penetration measurements and the Ellab ETI temperature sensor for retort process control. Known for extreme accuracy and long-term stability, Ellab sensors are trusted globally and widely used in FDA- and USDA-regulated facilities.
@@ -76,7 +76,6 @@ export default function PreciseHeatPenetration() {
           </p>
           <p className="text-lg mt-4">
             Build trust. Ensure safety. Optimize quality.<br />
-            With Itech and Ellab, you&apos;re not just measuring temperature—you&apos;re securing your brand&apos;s future.
           </p>
         </div>
       </section>

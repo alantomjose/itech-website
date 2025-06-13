@@ -1,10 +1,9 @@
 {
-  "name": "nextjs-tailwind-course-landing-page",
+  "name": "forsquare-website",
   "version": "1.0.0",
   "private": true,
-  "author": "Creative Tim",
-  "license": "See license in https://www.creative-tim.com/license",
-  "homepage": "https://demos.creative-tim.com/nextjs-tailwind-course-landing-page",
+  "author": "Alan Tom Jose",
+  "license": "Running on hope",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
